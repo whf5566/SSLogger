@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
    
-    NSLog(@"log file is here \n %@/Library/Caches/SSLog/",NSHomeDirectory());
+    NSLog(@"log file is here \n %@/Library/Data/SSLog/",NSHomeDirectory());
     
     // Delete log 7 days ago
     SSLoggerCleanLog([[NSDate date] dateByAddingTimeInterval:-60*60*24*7.0]);

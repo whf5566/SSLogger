@@ -36,7 +36,7 @@
 
 #define DLog(format, ...) do {SSLog(@"[%@:%d]%@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, (format) ? ([NSString stringWithFormat : (format), ##__VA_ARGS__]) : @"(null)"); } while (0)
 
-#define kfileMaxSize (1ul << 20) // log files max size
+#define kfileMaxSize (1ul << 24) // log files max size
 
 #pragma mark SSLogger API
 
