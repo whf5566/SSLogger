@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23287031AE638A600066DE4 /* SSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E23287021AE638A600066DE4 /* SSLogger.m */; };
+		E28E34F61AD3DEC0005C343E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E34F51AD3DEC0005C343E /* main.m */; };
+		E28E34F91AD3DEC0005C343E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E34F81AD3DEC0005C343E /* AppDelegate.m */; };
+		E28E34FC1AD3DEC0005C343E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E34FB1AD3DEC0005C343E /* ViewController.m */; };
+		E28E34FF1AD3DEC0005C343E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28E34FD1AD3DEC0005C343E /* Main.storyboard */; };
+		E28E35011AD3DEC0005C343E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28E35001AD3DEC0005C343E /* Images.xcassets */; };
+		E28E35041AD3DEC0005C343E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E35021AD3DEC0005C343E /* LaunchScreen.xib */; };
+		E28E35101AD3DEC0005C343E /* SSLogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E350F1AD3DEC0005C343E /* SSLogDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28E350A1AD3DEC0005C343E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28E34E81AD3DEC0005C343E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28E34EF1AD3DEC0005C343E;
+			remoteInfo = SSLogDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E23287011AE638A600066DE4 /* SSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLogger.h; sourceTree = "<group>"; };
+		E23287021AE638A600066DE4 /* SSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLogger.m; sourceTree = "<group>"; };
+		E28E34F01AD3DEC0005C343E /* SSLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28E34F41AD3DEC0005C343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28E34F51AD3DEC0005C343E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E28E34F71AD3DEC0005C343E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E28E34F81AD3DEC0005C343E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E28E34FA1AD3DEC0005C343E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E28E34FB1AD3DEC0005C343E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E28E34FE1AD3DEC0005C343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E28E35001AD3DEC0005C343E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E28E35031AD3DEC0005C343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E28E35091AD3DEC0005C343E /* SSLogDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLogDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28E350E1AD3DEC0005C343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28E350F1AD3DEC0005C343E /* SSLogDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLogDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28E34ED1AD3DEC0005C343E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28E35061AD3DEC0005C343E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23287001AE638A600066DE4 /* SSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				E23287011AE638A600066DE4 /* SSLogger.h */,
+				E23287021AE638A600066DE4 /* SSLogger.m */,
+			);
+			path = SSLogger;
+			sourceTree = "<group>";
+		};
+		E28E34E71AD3DEC0005C343E = {
+			isa = PBXGroup;
+			children = (
+				E23287001AE638A600066DE4 /* SSLogger */,
+				E28E34F21AD3DEC0005C343E /* SSLogDemo */,
+				E28E350C1AD3DEC0005C343E /* SSLogDemoTests */,
+				E28E34F11AD3DEC0005C343E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28E34F11AD3DEC0005C343E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28E34F01AD3DEC0005C343E /* SSLogDemo.app */,
+				E28E35091AD3DEC0005C343E /* SSLogDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28E34F21AD3DEC0005C343E /* SSLogDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E28E34F71AD3DEC0005C343E /* AppDelegate.h */,
+				E28E34F81AD3DEC0005C343E /* AppDelegate.m */,
+				E28E34FA1AD3DEC0005C343E /* ViewController.h */,
+				E28E34FB1AD3DEC0005C343E /* ViewController.m */,
+				E28E34FD1AD3DEC0005C343E /* Main.storyboard */,
+				E28E35001AD3DEC0005C343E /* Images.xcassets */,
+				E28E35021AD3DEC0005C343E /* LaunchScreen.xib */,
+				E28E34F31AD3DEC0005C343E /* Supporting Files */,
+			);
+			path = SSLogDemo;
+			sourceTree = "<group>";
+		};
+		E28E34F31AD3DEC0005C343E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28E34F41AD3DEC0005C343E /* Info.plist */,
+				E28E34F51AD3DEC0005C343E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28E350C1AD3DEC0005C343E /* SSLogDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28E350F1AD3DEC0005C343E /* SSLogDemoTests.m */,
+				E28E350D1AD3DEC0005C343E /* Supporting Files */,
+			);
+			path = SSLogDemoTests;
+			sourceTree = "<group>";
+		};
+		E28E350D1AD3DEC0005C343E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28E350E1AD3DEC0005C343E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28E34EF1AD3DEC0005C343E /* SSLogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28E35131AD3DEC0005C343E /* Build configuration list for PBXNativeTarget "SSLogDemo" */;
+			buildPhases = (
+				E28E34EC1AD3DEC0005C343E /* Sources */,
+				E28E34ED1AD3DEC0005C343E /* Frameworks */,
+				E28E34EE1AD3DEC0005C343E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLogDemo;
+			productName = SSLogDemo;
+			productReference = E28E34F01AD3DEC0005C343E /* SSLogDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E28E35081AD3DEC0005C343E /* SSLogDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28E35161AD3DEC0005C343E /* Build configuration list for PBXNativeTarget "SSLogDemoTests" */;
+			buildPhases = (
+				E28E35051AD3DEC0005C343E /* Sources */,
+				E28E35061AD3DEC0005C343E /* Frameworks */,
+				E28E35071AD3DEC0005C343E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28E350B1AD3DEC0005C343E /* PBXTargetDependency */,
+			);
+			name = SSLogDemoTests;
+			productName = SSLogDemoTests;
+			productReference = E28E35091AD3DEC0005C343E /* SSLogDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E28E34E81AD3DEC0005C343E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = whf5566;
+				TargetAttributes = {
+					E28E34EF1AD3DEC0005C343E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E28E35081AD3DEC0005C343E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E28E34EF1AD3DEC0005C343E;
+					};
+				};
+			};
+			buildConfigurationList = E28E34EB1AD3DEC0005C343E /* Build configuration list for PBXProject "SSLogDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E28E34E71AD3DEC0005C343E;
+			productRefGroup = E28E34F11AD3DEC0005C343E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28E34EF1AD3DEC0005C343E /* SSLogDemo */,
+				E28E35081AD3DEC0005C343E /* SSLogDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28E34EE1AD3DEC0005C343E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28E34FF1AD3DEC0005C343E /* Main.storyboard in Resources */,
+				E28E35041AD3DEC0005C343E /* LaunchScreen.xib in Resources */,
+				E28E35011AD3DEC0005C343E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28E35071AD3DEC0005C343E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28E34EC1AD3DEC0005C343E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28E34FC1AD3DEC0005C343E /* ViewController.m in Sources */,
+				E28E34F91AD3DEC0005C343E /* AppDelegate.m in Sources */,
+				E28E34F61AD3DEC0005C343E /* main.m in Sources */,
+				E23287031AE638A600066DE4 /* SSLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28E35051AD3DEC0005C343E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28E35101AD3DEC0005C343E /* SSLogDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28E350B1AD3DEC0005C343E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28E34EF1AD3DEC0005C343E /* SSLogDemo */;
+			targetProxy = E28E350A1AD3DEC0005C343E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E28E34FD1AD3DEC0005C343E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28E34FE1AD3DEC0005C343E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E28E35021AD3DEC0005C343E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28E35031AD3DEC0005C343E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E28E35111AD3DEC0005C343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E28E35121AD3DEC0005C343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28E35141AD3DEC0005C343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLogDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.1;
+			};
+			name = Debug;
+		};
+		E28E35151AD3DEC0005C343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLogDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.1;
+			};
+			name = Release;
+		};
+		E28E35171AD3DEC0005C343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLogDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLogDemo.app/SSLogDemo";
+			};
+			name = Debug;
+		};
+		E28E35181AD3DEC0005C343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLogDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLogDemo.app/SSLogDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28E34EB1AD3DEC0005C343E /* Build configuration list for PBXProject "SSLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28E35111AD3DEC0005C343E /* Debug */,
+				E28E35121AD3DEC0005C343E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28E35131AD3DEC0005C343E /* Build configuration list for PBXNativeTarget "SSLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28E35141AD3DEC0005C343E /* Debug */,
+				E28E35151AD3DEC0005C343E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28E35161AD3DEC0005C343E /* Build configuration list for PBXNativeTarget "SSLogDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28E35171AD3DEC0005C343E /* Debug */,
+				E28E35181AD3DEC0005C343E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E28E34E81AD3DEC0005C343E /* Project object */;
+}
