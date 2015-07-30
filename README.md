@@ -10,7 +10,7 @@ SSLogger是一个很简单的，轻量级的iOS日志记录工具。使用方法
 SSLoggerCleanLog([[NSDate date] dateByAddingTimeInterval:-60*60*24*7.0]);
 // 开始日志记录
 SSLoggerStart();
-// 捕捉到程序崩溃信息
+// 捕捉程序崩溃信息
 SSLoggerCatchCrash();
 
 NSString* logStr = @"this is a str";
