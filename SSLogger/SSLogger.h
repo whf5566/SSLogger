@@ -1,7 +1,9 @@
 /*
  * SSLogger.h
  *
- * version 0.0.1 23-MAR-2015 by whf5566@gmail.com
+ * version 1.0.1 23-MAR-2015 by whf5566@gmail.com
+ *
+ * https://github.com/whf5566/SSLogger.git
  *
  * BSD license follows (http://www.opensource.org/licenses/bsd-license.php)
  *
