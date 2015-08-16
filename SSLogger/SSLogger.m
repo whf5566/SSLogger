@@ -607,7 +607,7 @@ static void signalCrashHandler(int sig, siginfo_t *info, void *context)
     }
 
     NSString *logFilePath = [[SSLogger shareManger].nextLogFilePath stringByAppendingString:@"_Crash.log"];
-    [str writeToFile:logFilePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    __hasCaughtCrash = [str writeToFile:logFilePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 
 #pragma mark SSLog API
